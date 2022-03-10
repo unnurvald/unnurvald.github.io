@@ -1,0 +1,208 @@
+body {
+
+}
+
+header { 
+  /* Size and Position */ 
+  /argin: 0 auto;
+  /* Looks */
+  
+
+}
+
+nav {
+  /* Size and Position */
+  max-width: 48em;
+  margin: 0 auto;
+  /* Looks */
+  
+
+}
+
+ul {
+  float: center;
+  display: flex;
+  padding:  0;
+
+}
+
+li {
+  margin: 0 auto;
+  list-style-type: none;
+  display: inline-block;
+  /*margin-right: 106px;*/
+  /*text-align: center;*/
+  
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #7D7869;
+
+}
+
+a:hover {
+  color: #CFC29E;
+  
+}
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  margin: 4px;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 48em;
+  display: flex;
+  /* flex-wrap: wrap; Sá ekki mun.testa seinna */
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.Pan2 {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.Pan {
+  max-width: 48em;
+  margin: 0 auto;
+  display: flex;
+  padding: 0;
+
+}
+
+.Logo { 
+  max-width: 70%;
+  height: auto;
+  align-content: center;
+  margin: 0 auto;
+
+ }
+
+
+.gallery{
+  max-width: 48em;
+  margin: 0 auto;
+  }
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+ 
+
+}
+
+.column2 img {
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+
+.column2 img:hover {
+  opacity: 50%;
+}
+
+.litidlogo {
+  max-width: 7em;
+}
+
+h3{
+  text-align: center;
+  margin-top: 1px;
+  font-family: Courier New;
+  color: #7D7869;
+  font-size: 1.5em;
+
+}
+
+h3:hover {
+    color: #CFC29E;
+}
+
+.eg {
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 16px;
+}
+
+p {
+   font-family: Courier New;
+    color: #7a766c;
+    padding: 0 10em;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+
+h1 {
+  color: #45433f;
+  text-align: center;
+}
+
+.icon{
+  max-width: 20px;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.verkinmin{
+  max-width: 20em;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 2em;
+}
+
+.litlar{
+  max-width: 8em;
+}
+
+.border{
+  border: 1px solid black;
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+.border2{
+   border: 1px solid black;
+  max-width: 26em;
+  margin: 0 auto;
+}
+
+.litlarpan{
+  max-width: 24em;
+}
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
